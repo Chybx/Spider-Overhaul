@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "spider-overhaul",
+	"version": "${version}",
+	"name": "Spider Overhaul",
+	"description": "A mod that overhauls spiders in Minecraft, adding new behaviors and features.",
+	"authors": [
+		"Chybx"
+	],
+	"contact": {
+		"discord": "https://discord.gg/RjZpDame2a"
+	},
+	"license": "All Rights Reserved",
+	"icon": "assets/spider-overhaul/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.chybx.spideroverhaul.Spideroverhaul"
+		],
+		"fabric-datagen": [
+			"dev.chybx.spideroverhaul.SpideroverhaulDataGenerator"
+		],
+		"client": [
+			"dev.chybx.spideroverhaul.SpideroverhaulClient"
+		],
+		"modmenu": [
+			"dev.chybx.spideroverhaul.config.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"spider-overhaul.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.0",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}

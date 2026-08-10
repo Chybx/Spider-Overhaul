@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "modifications": [
+    {
+      "biomes": [
+        "minecraft:swamp",
+        "minecraft:mangrove_swamp"
+      ],
+      "add_features": [
+        {
+          "step": "vegetal_decoration",
+          "feature": "spider-overhaul:spider_lily_pad"
+        }
+      ]
+    }
+  ]
+}

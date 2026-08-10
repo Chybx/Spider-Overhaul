@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "spider-overhaul:item/bottle_of_spider_pollen"
+  }
+}

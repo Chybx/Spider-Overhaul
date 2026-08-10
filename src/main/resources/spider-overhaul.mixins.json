@@ -1,0 +1,25 @@
+{
+	"required": true,
+	"package": "dev.chybx.spideroverhaul.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"BogEffectMixin",
+		"CactusSpineDamageTypeMixin",
+		"IcyEffectMixin",
+		"SpiderSpawnRestrictionMixin",
+		"WebbedEffectMixin",
+		"WebbedPlayerMixin",
+		"ServerPlayNetworkHandlerMixin"
+	],
+	"client": [
+		"InGameHudMixin",
+		"LivingEntityRendererAccessor",
+		"LivingEntityRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

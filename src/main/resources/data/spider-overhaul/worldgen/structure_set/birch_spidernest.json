@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "spider-overhaul:birch_spidernest",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 8,
+    "separation": 6,
+    "salt": 147852369
+  }
+}

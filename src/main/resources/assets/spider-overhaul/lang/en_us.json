@@ -1,0 +1,89 @@
+{
+  "entity.spider-overhaul.desert_spider": "Desert Spider",
+  "entity.spider-overhaul.ice_spider": "Ice Spider",
+  "entity.spider-overhaul.jungle_spider": "Jungle Spider",
+  "entity.spider-overhaul.sculk_spider": "Sculk Spider",
+  "entity.spider-overhaul.mushroom_spider": "Mushroom Spider",
+  "entity.spider-overhaul.cavern_spider": "Cavern Spider",
+  "entity.spider-overhaul.cavern_spider.type.amethyst": "Amethyst Cavern Spider",
+  "entity.spider-overhaul.cavern_spider.type.emerald": "Emerald Cavern Spider",
+  "entity.spider-overhaul.cavern_spider.type.diamond": "Diamond Cavern Spider",
+  "entity.spider-overhaul.ocean_spider": "Ocean Spider",
+  "entity.spider-overhaul.taiga_spider": "Taiga Spider",
+  "entity.spider-overhaul.birch_spider": "Birch Spider",
+  "entity.spider-overhaul.savanna_spider": "Savanna Spider",
+  "entity.spider-overhaul.swamp_spider": "Swamp Spider",
+  
+  "block.spider-overhaul.birch_nest": "Birch Spider Nest",
+  "block.spider-overhaul.spider_lily_pad": "Infested Lily Pad",
+  "block.spider-overhaul.giant_bamboo_block": "Giant Bamboo Block",
+  
+  "item.spider-overhaul.cactus_spine": "Cactus Spine",
+  "item.spider-overhaul.ice_shard": "Ice Shard",
+  "item.spider-overhaul.ice_snowball": "Ice Snowball",
+  "item.spider-overhaul.crab_leg": "Crab Leg",
+  "item.spider-overhaul.cooked_crab": "Cooked Crab",
+  "item.spider-overhaul.spider_lily_pad": "Infested Lily Pad",
+  "item.spider-overhaul.bottle_of_spider_pollen": "Bottle of Spider Pollen",
+  
+  "item.spider-overhaul.desert_spider_spawn_egg": "Desert Spider Spawn Egg",
+  "item.spider-overhaul.ice_spider_spawn_egg": "Ice Spider Spawn Egg",
+  "item.spider-overhaul.jungle_spider_spawn_egg": "Jungle Spider Spawn Egg",
+  "item.spider-overhaul.sculk_spider_spawn_egg": "Sculk Spider Spawn Egg",
+  "item.spider-overhaul.mushroom_spider_spawn_egg": "Mushroom Spider Spawn Egg",
+  "item.spider-overhaul.cavern_spider_spawn_egg": "Cavern Spider Spawn Egg",
+  "item.spider-overhaul.ocean_spider_spawn_egg": "Ocean Spider Spawn Egg",
+  "item.spider-overhaul.taiga_spider_spawn_egg": "Taiga Spider Spawn Egg",
+  "item.spider-overhaul.birch_spider_spawn_egg": "Birch Spider Spawn Egg",
+  "item.spider-overhaul.savanna_spider_spawn_egg": "Savanna Spider Spawn Egg",
+  "item.spider-overhaul.swamp_spider_spawn_egg": "Swamp Spider Spawn Egg",
+  
+  "effect.spider-overhaul.icy": "Icy",
+  "effect.spider-overhaul.bog": "Bog",
+  "effect.spider-overhaul.webbed": "Webbed",
+  
+  "item.minecraft.potion.effect.icy": "Potion of Icy",
+  "item.minecraft.splash_potion.effect.icy": "Splash Potion of Icy",
+  "item.minecraft.lingering_potion.effect.icy": "Lingering Potion of Icy",
+  "item.minecraft.tipped_arrow.effect.icy": "Arrow of Icy",
+  
+  "item.minecraft.potion.effect.long_icy": "Potion of Icy",
+  "item.minecraft.splash_potion.effect.long_icy": "Splash Potion of Icy",
+  "item.minecraft.lingering_potion.effect.long_icy": "Lingering Potion of Icy",
+  "item.minecraft.tipped_arrow.effect.long_icy": "Arrow of Icy",
+  
+  "item.minecraft.potion.effect.bog": "Potion of Bog",
+  "item.minecraft.splash_potion.effect.bog": "Splash Potion of Bog",
+  "item.minecraft.lingering_potion.effect.bog": "Lingering Potion of Bog",
+  "item.minecraft.tipped_arrow.effect.bog": "Arrow of Bog",
+  
+  "item.minecraft.potion.effect.long_bog": "Potion of Bog",
+  "item.minecraft.splash_potion.effect.long_bog": "Splash Potion of Bog",
+  "item.minecraft.lingering_potion.effect.long_bog": "Lingering Potion of Bog",
+  "item.minecraft.tipped_arrow.effect.long_bog": "Arrow of Bog",
+  
+  "itemGroup.spider-overhaul.general": "Spider Overhaul",
+
+  "config.spider-overhaul.title": "Spider Overhaul Config",
+  "config.spider-overhaul.category.general": "General",
+  "config.spider-overhaul.category.spawning": "Spawning",
+  "config.spider-overhaul.category.attributes": "Attributes",
+
+  "config.spider-overhaul.replace_vanilla_spiders": "Replace Vanilla Spiders",
+  "config.spider-overhaul.replace_vanilla_spiders.tooltip": "Removes vanilla spider and cave spider spawns from biomes that have variant spider spawns.",
+
+  "config.spider-overhaul.use_vanilla_models": "Use Vanilla Models",
+  "config.spider-overhaul.use_vanilla_models.tooltip": "Switches spider models to the vanilla style. Disable to use the custom overhauled models.",
+
+  "config.spider-overhaul.spawn_weight_multiplier": "Spawn Weight Multiplier",
+  "config.spider-overhaul.spawn_weight_multiplier.tooltip": "Multiplies the spawn weight of all variant spiders. Higher values = more frequent spawns.",
+
+  "config.spider-overhaul.health_multiplier": "Health Multiplier",
+  "config.spider-overhaul.health_multiplier.tooltip": "Multiplies the base health of all variant spiders.",
+
+  "config.spider-overhaul.damage_multiplier": "Damage Multiplier",
+  "config.spider-overhaul.damage_multiplier.tooltip": "Multiplies the base attack damage of all variant spiders.",
+
+  "config.spider-overhaul.speed_multiplier": "Speed Multiplier",
+  "config.spider-overhaul.speed_multiplier.tooltip": "Multiplies the base movement speed of all variant spiders."
+}

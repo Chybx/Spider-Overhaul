@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#spider-overhaul:is_jungle",
+    "#spider-overhaul:is_swamp",
+    "#spider-overhaul:is_desert",
+    "#spider-overhaul:is_ice",
+    "#spider-overhaul:is_birch"
+  ]
+}

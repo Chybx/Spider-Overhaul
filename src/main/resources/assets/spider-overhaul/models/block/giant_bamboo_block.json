@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "spider-overhaul:block/giant_bamboo_block_top",
+    "side": "spider-overhaul:block/giant_bamboo_block_side"
+  }
+}

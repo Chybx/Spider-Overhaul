@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "spider-overhaul:desert_spider",
+    "spider-overhaul:ice_spider",
+    "spider-overhaul:jungle_spider",
+    "spider-overhaul:sculk_spider",
+    "spider-overhaul:mushroom_spider",
+    "spider-overhaul:cavern_spider",
+    "spider-overhaul:ocean_spider",
+    "spider-overhaul:taiga_spider",
+    "spider-overhaul:birch_spider",
+    "spider-overhaul:savanna_spider",
+    "spider-overhaul:swamp_spider"
+  ]
+}

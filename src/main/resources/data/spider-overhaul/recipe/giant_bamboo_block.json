@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "spider-overhaul:giant_bamboo_block"
+    }
+  ],
+  "result": {
+    "id": "minecraft:bamboo",
+    "count": 3
+  }
+}

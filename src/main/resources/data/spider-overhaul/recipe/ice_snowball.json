@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:snowball"
+    },
+    {
+      "item": "spider-overhaul:ice_shard"
+    }
+  ],
+  "result": {
+    "id": "spider-overhaul:ice_snowball",
+    "count": 1
+  }
+}

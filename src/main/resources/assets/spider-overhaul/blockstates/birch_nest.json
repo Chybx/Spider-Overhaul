@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "active=true,empty=false,facing=north": { "model": "spider-overhaul:block/birch_nest", "y": 0 },
+    "active=true,empty=false,facing=east":  { "model": "spider-overhaul:block/birch_nest", "y": 90 },
+    "active=true,empty=false,facing=south": { "model": "spider-overhaul:block/birch_nest", "y": 180 },
+    "active=true,empty=false,facing=west":  { "model": "spider-overhaul:block/birch_nest", "y": 270 },
+
+    "active=true,empty=true,facing=north": { "model": "spider-overhaul:block/birch_nest_empty", "y": 0 },
+    "active=true,empty=true,facing=east":  { "model": "spider-overhaul:block/birch_nest_empty", "y": 90 },
+    "active=true,empty=true,facing=south": { "model": "spider-overhaul:block/birch_nest_empty", "y": 180 },
+    "active=true,empty=true,facing=west":  { "model": "spider-overhaul:block/birch_nest_empty", "y": 270 },
+
+    "active=false,empty=false,facing=north": { "model": "spider-overhaul:block/birch_nest_empty", "y": 0 },
+    "active=false,empty=false,facing=east":  { "model": "spider-overhaul:block/birch_nest_empty", "y": 90 },
+    "active=false,empty=false,facing=south": { "model": "spider-overhaul:block/birch_nest_empty", "y": 180 },
+    "active=false,empty=false,facing=west":  { "model": "spider-overhaul:block/birch_nest_empty", "y": 270 },
+
+    "active=false,empty=true,facing=north": { "model": "spider-overhaul:block/birch_nest_empty", "y": 0 },
+    "active=false,empty=true,facing=east":  { "model": "spider-overhaul:block/birch_nest_empty", "y": 90 },
+    "active=false,empty=true,facing=south": { "model": "spider-overhaul:block/birch_nest_empty", "y": 180 },
+    "active=false,empty=true,facing=west":  { "model": "spider-overhaul:block/birch_nest_empty", "y": 270 }
+  }
+}
