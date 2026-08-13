@@ -19,6 +19,10 @@ public class SpiderSpawnRestrictionMixin {
 
     @Inject(method = "canSpawn", at = @At("RETURN"), cancellable = true)
     private static void onCanSpawn(EntityType<?> type, ServerWorldAccess world, SpawnReason reason, BlockPos pos, Random random, CallbackInfoReturnable<Boolean> cir) {
+        if (reason != SpawnReason.NATURAL) {
+            return;
+        }
+
         if (cir.getReturnValue() && isModSpider(type)) {
             if (type == ModEntities.CAVERN_SPIDER) {
                 if (pos.getY() >= 63) {
