@@ -62,6 +62,17 @@
   "item.minecraft.lingering_potion.effect.long_bog": "Lingering Potion of Bog",
   "item.minecraft.tipped_arrow.effect.long_bog": "Arrow of Bog",
   
+  "advancements.spider-overhaul.root.title": "Spider Overhaul",
+  "advancements.spider-overhaul.root.description": "The spiders are out of the walls",
+  "advancements.spider-overhaul.use_spider_pollen.title": "Watch me grow",
+  "advancements.spider-overhaul.use_spider_pollen.description": "Use spider pollen on bamboo to grow giant bamboo",
+  "advancements.spider-overhaul.break_webbed.title": "Mrmph-mhehph!!",
+  "advancements.spider-overhaul.break_webbed.description": "Break out of the webbed effect before it wears off",
+  "advancements.spider-overhaul.kill_mod_spider.title": "Very Spider, much Overhaul",
+  "advancements.spider-overhaul.kill_mod_spider.description": "Kill one of the overhauled spider variants",
+  "advancements.spider-overhaul.kill_all_spiders.title": "Charlotte's dead",
+  "advancements.spider-overhaul.kill_all_spiders.description": "Kill every overhauled spider variant at least once",
+  
   "itemGroup.spider-overhaul.general": "Spider Overhaul",
 
   "config.spider-overhaul.title": "Spider Overhaul Config",

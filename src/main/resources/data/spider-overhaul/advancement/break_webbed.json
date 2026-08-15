@@ -1,0 +1,25 @@
+{
+  "parent": "spider-overhaul:root",
+  "criteria": {
+    "break_webbed": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.spider-overhaul.break_webbed.description"
+    },
+    "icon": {
+      "id": "minecraft:cobweb"
+    },
+    "title": {
+      "translate": "advancements.spider-overhaul.break_webbed.title"
+    }
+  },
+  "requirements": [
+    [
+      "break_webbed"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "spider-overhaul:root",
+  "criteria": {
+    "kill_mod_spider": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#spider-overhaul:spiders"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.spider-overhaul.kill_mod_spider.description"
+    },
+    "icon": {
+      "id": "minecraft:spider_eye"
+    },
+    "title": {
+      "translate": "advancements.spider-overhaul.kill_mod_spider.title"
+    }
+  },
+  "requirements": [
+    [
+      "kill_mod_spider"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
