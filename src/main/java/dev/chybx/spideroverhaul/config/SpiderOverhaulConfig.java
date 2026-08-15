@@ -21,6 +21,8 @@ public class SpiderOverhaulConfig {
 
     public boolean useVanillaModels = true;
 
+    public boolean hideSpiderLegs = false;
+
     public double healthMultiplier = 1.0;
     public double damageMultiplier = 1.0;
     public double speedMultiplier = 1.0;

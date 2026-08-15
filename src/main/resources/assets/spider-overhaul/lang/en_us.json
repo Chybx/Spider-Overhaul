@@ -75,6 +75,9 @@
   "config.spider-overhaul.use_vanilla_models": "Use Vanilla Models",
   "config.spider-overhaul.use_vanilla_models.tooltip": "Switches spider models to the vanilla style. Disable to use the custom overhauled models.",
 
+  "config.spider-overhaul.hide_spider_legs": "Hide Spider Legs",
+  "config.spider-overhaul.hide_spider_legs.tooltip": "Hides the legs on all spider models so they are not rendered. Intended for players with arachnophobia.",
+
   "config.spider-overhaul.spawn_weight_multiplier": "Spawn Weight Multiplier",
   "config.spider-overhaul.spawn_weight_multiplier.tooltip": "Multiplies the spawn weight of all variant spiders. Higher values = more frequent spawns.",
 

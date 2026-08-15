@@ -36,6 +36,14 @@ public class SpiderOverhaulConfigScreen {
                 .setTooltip(Text.translatable("config.spider-overhaul.use_vanilla_models.tooltip"))
                 .build());
 
+        general.addEntry(entryBuilder.startBooleanToggle(
+                        Text.translatable("config.spider-overhaul.hide_spider_legs"),
+                        config.hideSpiderLegs)
+                .setDefaultValue(false)
+                .setSaveConsumer(value -> config.hideSpiderLegs = value)
+                .setTooltip(Text.translatable("config.spider-overhaul.hide_spider_legs.tooltip"))
+                .build());
+
         ConfigCategory spawning = builder.getOrCreateCategory(Text.translatable("config.spider-overhaul.category.spawning"));
 
         spawning.addEntry(entryBuilder.startDoubleField(
