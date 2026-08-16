@@ -6,7 +6,7 @@
   },
   "display": {
     "announce_to_chat": false,
-    "background": "spider-overhaul:gui/advancements/backgrounds/white_wool",
+    "background": "spider-overhaul:textures/gui/advancements/backgrounds/white_wool.png",
     "description": {
       "translate": "advancements.spider-overhaul.root.description"
     },
