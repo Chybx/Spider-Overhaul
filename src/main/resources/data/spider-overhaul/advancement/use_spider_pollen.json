@@ -2,28 +2,7 @@
   "parent": "spider-overhaul:root",
   "criteria": {
     "use_spider_pollen": {
-      "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": [
-                  "minecraft:bamboo",
-                  "minecraft:bamboo_sapling"
-                ]
-              }
-            }
-          },
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": "spider-overhaul:bottle_of_spider_pollen"
-            }
-          }
-        ]
-      },
-      "trigger": "minecraft:item_used_on_block"
+      "trigger": "minecraft:impossible"
     }
   },
   "display": {

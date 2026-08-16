@@ -18,6 +18,7 @@ import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerWorldEvents;
 import net.fabricmc.fabric.api.event.player.UseBlockCallback;
+import net.minecraft.advancement.AdvancementEntry;
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -129,7 +130,11 @@ public class Spideroverhaul implements ModInitializer {
 				BambooGrowthHandler.startConversion((ServerWorld) world, pos);
 
 				if (player instanceof ServerPlayerEntity serverPlayer) {
-					Criteria.ITEM_USED_ON_BLOCK.trigger(serverPlayer, pos, stack);
+					AdvancementEntry advancement = serverPlayer.getServer().getAdvancementLoader()
+							.get(Identifier.of(Spideroverhaul.MOD_ID, "use_spider_pollen"));
+					if (advancement != null) {
+						serverPlayer.getAdvancementTracker().grantCriterion(advancement, "use_spider_pollen");
+					}
 				}
 
 				world.playSound(null, pos, SoundEvents.ITEM_BOTTLE_EMPTY, SoundCategory.BLOCKS, 1.0f, 1.0f);
