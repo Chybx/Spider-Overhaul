@@ -17,7 +17,7 @@ public class WebbedPlayerMixin {
         if (player.getWorld().isClient()) return;
 
         if (player.hasStatusEffect(ModEffects.WEBBED)) {
-            if (!WebbedBreakProgress.tryIncrement(player.getUuid())) {
+            if (!WebbedBreakProgress.tryIncrement(player.getUuid(), WebbedBreakProgress.getBreakIncrement(player))) {
                 ci.cancel();
                 return;
             }

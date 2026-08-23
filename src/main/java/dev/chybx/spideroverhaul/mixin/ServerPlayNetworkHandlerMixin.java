@@ -19,7 +19,7 @@ public class ServerPlayNetworkHandlerMixin {
     private void tryBreakWeb(ServerPlayerEntity player, CallbackInfo ci) {
         if (!player.hasStatusEffect(ModEffects.WEBBED)) return;
 
-        if (!WebbedBreakProgress.tryIncrement(player.getUuid())) {
+        if (!WebbedBreakProgress.tryIncrement(player.getUuid(), WebbedBreakProgress.getBreakIncrement(player))) {
             ci.cancel();
             return;
         }

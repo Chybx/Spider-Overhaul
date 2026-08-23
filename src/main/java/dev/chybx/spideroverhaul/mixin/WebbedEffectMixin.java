@@ -75,7 +75,10 @@ public class WebbedEffectMixin {
         if (entity instanceof PlayerEntity) return;
         if (!entity.hasStatusEffect(ModEffects.WEBBED)) return;
 
-        if (!WebbedBreakProgress.tryIncrement(entity.getUuid())) return;
+        int increment = source.getAttacker() instanceof LivingEntity attacker
+                ? WebbedBreakProgress.getBreakIncrement(attacker)
+                : 1;
+        if (!WebbedBreakProgress.tryIncrement(entity.getUuid(), increment)) return;
 
         WebbedBreakProgress.spawnCobwebParticles(entity);
 
