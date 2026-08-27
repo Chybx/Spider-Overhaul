@@ -1,0 +1,103 @@
+{
+  "entity.spider-overhaul.desert_spider": "デザートスパイダー",
+  "entity.spider-overhaul.ice_spider": "アイススパイダー",
+  "entity.spider-overhaul.jungle_spider": "ジャングルスパイダー",
+  "entity.spider-overhaul.sculk_spider": "スカルクスパイダー",
+  "entity.spider-overhaul.mushroom_spider": "キノコグモ",
+  "entity.spider-overhaul.cavern_spider": "洞窟グモ",
+  "entity.spider-overhaul.cavern_spider.type.amethyst": "アメジスト洞窟グモ",
+  "entity.spider-overhaul.cavern_spider.type.emerald": "エメラルド洞窟グモ",
+  "entity.spider-overhaul.cavern_spider.type.diamond": "ダイヤモンド洞窟グモ",
+  "entity.spider-overhaul.ocean_spider": "オーシャンスパイダー",
+  "entity.spider-overhaul.taiga_spider": "タイガグモ",
+  "entity.spider-overhaul.birch_spider": "シラカバグモ",
+  "entity.spider-overhaul.savanna_spider": "サバンナスパイダー",
+  "entity.spider-overhaul.swamp_spider": "スワンプスパイダー",
+  
+  "block.spider-overhaul.birch_nest": "シラカバグモの巣",
+  "block.spider-overhaul.spider_lily_pad": "巣食われたスイレンの葉",
+  "block.spider-overhaul.giant_bamboo_block": "大きな竹ブロック",
+  
+  "item.spider-overhaul.cactus_spine": "サボテンのトゲ",
+  "item.spider-overhaul.ice_shard": "氷の欠片",
+  "item.spider-overhaul.ice_snowball": "氷入りの雪玉",
+  "item.spider-overhaul.crab_leg": "カニの脚",
+  "item.spider-overhaul.cooked_crab": "調理されたカニ",
+  "item.spider-overhaul.spider_lily_pad": "巣食われたスイレンの葉",
+  "item.spider-overhaul.bottle_of_spider_pollen": "クモの花粉入りの瓶",
+  
+  "item.spider-overhaul.desert_spider_spawn_egg": "デザートスパイダーのスポーンエッグ",
+  "item.spider-overhaul.ice_spider_spawn_egg": "アイススパイダーのスポーンエッグ",
+  "item.spider-overhaul.jungle_spider_spawn_egg": "ジャングルスパイダーのスポーンエッグ",
+  "item.spider-overhaul.sculk_spider_spawn_egg": "スカルクスパイダーのスポーンエッグ",
+  "item.spider-overhaul.mushroom_spider_spawn_egg": "キノコグモのスポーンエッグ",
+  "item.spider-overhaul.cavern_spider_spawn_egg": "洞窟グモのスポーンエッグ",
+  "item.spider-overhaul.ocean_spider_spawn_egg": "オーシャンスパイダーのスポーンエッグ",
+  "item.spider-overhaul.taiga_spider_spawn_egg": "タイガグモのスポーンエッグ",
+  "item.spider-overhaul.birch_spider_spawn_egg": "シラカバグモのスポーンエッグ",
+  "item.spider-overhaul.savanna_spider_spawn_egg": "サバンナスパイダーのスポーンエッグ",
+  "item.spider-overhaul.swamp_spider_spawn_egg": "スワンプスパイダーのスポーンエッグ",
+  
+  "effect.spider-overhaul.icy": "氷滑り",
+  "effect.spider-overhaul.bog": "ぬかるみ",
+  "effect.spider-overhaul.webbed": "捕縛",
+  
+  "item.minecraft.potion.effect.icy": "氷滑りのポーション",
+  "item.minecraft.splash_potion.effect.icy": "氷滑りのスプラッシュポーション",
+  "item.minecraft.lingering_potion.effect.icy": "氷滑りの残留ポーション",
+  "item.minecraft.tipped_arrow.effect.icy": "氷滑りの矢",
+  
+  "item.minecraft.potion.effect.long_icy": "氷滑りのポーション",
+  "item.minecraft.splash_potion.effect.long_icy": "氷滑りのスプラッシュポーション",
+  "item.minecraft.lingering_potion.effect.long_icy": "氷滑りの残留ポーション",
+  "item.minecraft.tipped_arrow.effect.long_icy": "氷滑りの矢",
+  
+  "item.minecraft.potion.effect.bog": "ぬかるみのポーション",
+  "item.minecraft.splash_potion.effect.bog": "ぬかるみのスプラッシュポーション",
+  "item.minecraft.lingering_potion.effect.bog": "ぬかるみの残留ポーション",
+  "item.minecraft.tipped_arrow.effect.bog": "ぬかるみの矢",
+  
+  "item.minecraft.potion.effect.long_bog": "ぬかるみのポーション",
+  "item.minecraft.splash_potion.effect.long_bog": "ぬかるみのスプラッシュポーション",
+  "item.minecraft.lingering_potion.effect.long_bog": "ぬかるみの残留ポーション",
+  "item.minecraft.tipped_arrow.effect.long_bog": "ぬかるみの矢",
+  
+  "advancements.spider-overhaul.root.title": "Spider Overhaul",
+  "advancements.spider-overhaul.root.description": "クモ達が這い出てきた...",
+  "advancements.spider-overhaul.use_spider_pollen.title": "私の成長を見守って!",
+  "advancements.spider-overhaul.use_spider_pollen.description": "クモの花粉を使って、竹を大きく成長させる",
+  "advancements.spider-overhaul.break_webbed.title": "うぇっ-ぺっぺっ!!",
+  "advancements.spider-overhaul.break_webbed.description": "効果が切れる前に、捕縛から抜け出す",
+  "advancements.spider-overhaul.kill_mod_spider.title": "まさにスパイダー! オーバーホールされた!",
+  "advancements.spider-overhaul.kill_mod_spider.description": "overhauled spiderで追加されたクモのいずれかを倒す",
+  "advancements.spider-overhaul.kill_all_spiders.title": "シャーロットが死んだ",
+  "advancements.spider-overhaul.kill_all_spiders.description": "overhauled spiderで追加されたクモを全て倒す",
+  
+  "itemGroup.spider-overhaul.general": "Spider Overhaul",
+
+  "config.spider-overhaul.title": "Spider Overhaul Config",
+  "config.spider-overhaul.category.general": "ジェネラル",
+  "config.spider-overhaul.category.spawning": "スポーン",
+  "config.spider-overhaul.category.attributes": "アトリビュート",
+
+  "config.spider-overhaul.replace_vanilla_spiders": "バニラのクモを置きかえ",
+  "config.spider-overhaul.replace_vanilla_spiders.tooltip": "バニラのクモと洞窟グモを削除し、バイオームごとのクモに置き換えます。",
+
+  "config.spider-overhaul.use_vanilla_models": "バニラのモデルを使用する",
+  "config.spider-overhaul.use_vanilla_models.tooltip": "spider overhaul用にカスタムされたモデルではなく、バニラと同様のモデルを使用します。",
+
+  "config.spider-overhaul.hide_spider_legs": "クモの脚を隠す",
+  "config.spider-overhaul.hide_spider_legs.tooltip": "全てのクモのモデルから脚を削除します。クモ恐怖症のプレイヤー向け。",
+
+  "config.spider-overhaul.spawn_weight_multiplier": "スポーンウェイト倍率",
+  "config.spider-overhaul.spawn_weight_multiplier.tooltip": "すべての種類のクモのスポーン頻度を倍増させます。値が高いほど、スポーン頻度が高くなります。",
+
+  "config.spider-overhaul.health_multiplier": "体力倍率",
+  "config.spider-overhaul.health_multiplier.tooltip": "全てのクモの体力を倍率の応じて上昇させます。",
+
+  "config.spider-overhaul.damage_multiplier": "攻撃力倍率",
+  "config.spider-overhaul.damage_multiplier.tooltip": "全てのクモの攻撃力を倍率の応じて上昇させます。",
+
+  "config.spider-overhaul.speed_multiplier": "移動速度倍率",
+  "config.spider-overhaul.speed_multiplier.tooltip": "全てのクモの移動速度を倍率の応じて上昇させます。"
+}
