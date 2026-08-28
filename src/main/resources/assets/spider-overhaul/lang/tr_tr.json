@@ -1,0 +1,103 @@
+{
+  "entity.spider-overhaul.desert_spider": "Çöl Örümceği",
+  "entity.spider-overhaul.ice_spider": "Buz Örümceği",
+  "entity.spider-overhaul.jungle_spider": "Orman Örümceği",
+  "entity.spider-overhaul.sculk_spider": "Sculk Örümceği",
+  "entity.spider-overhaul.mushroom_spider": "Mantar Örümceği",
+  "entity.spider-overhaul.cavern_spider": "Mağara Örümceği",
+  "entity.spider-overhaul.cavern_spider.type.amethyst": "Ametist Mağara Örümceği",
+  "entity.spider-overhaul.cavern_spider.type.emerald": "Zümrüt Mağara Örümceği",
+  "entity.spider-overhaul.cavern_spider.type.diamond": "Elmas Mağara Örümceği",
+  "entity.spider-overhaul.ocean_spider": "Okyanus Örümceği",
+  "entity.spider-overhaul.taiga_spider": "Tayga Örümceği",
+  "entity.spider-overhaul.birch_spider": "Huş Örümceği",
+  "entity.spider-overhaul.savanna_spider": "Savana Örümceği",
+  "entity.spider-overhaul.swamp_spider": "Bataklık Örümceği",
+  
+  "block.spider-overhaul.birch_nest": "Huş Ağacı Örümcek Yuvası",
+  "block.spider-overhaul.spider_lily_pad": "İstilaya Uğramış Nilüfer Yaprağı",
+  "block.spider-overhaul.giant_bamboo_block": "Dev Bambu Bloğu",
+  
+  "item.spider-overhaul.cactus_spine": "Kaktüs Dikeni",
+  "item.spider-overhaul.ice_shard": "Buz Parçası",
+  "item.spider-overhaul.ice_snowball": "Buz Kartopu",
+  "item.spider-overhaul.crab_leg": "Yengeç Bacağı",
+  "item.spider-overhaul.cooked_crab": "Pişmiş Yengeç",
+  "item.spider-overhaul.spider_lily_pad": "İstilaya Uğramış Nilüfer Yaprağı",
+  "item.spider-overhaul.bottle_of_spider_pollen": "Örümcek Poleni Şişesi",
+  
+  "item.spider-overhaul.desert_spider_spawn_egg": "Çöl Örümceği Yumurtası",
+  "item.spider-overhaul.ice_spider_spawn_egg": "Buz Örümceği Yumurtası",
+  "item.spider-overhaul.jungle_spider_spawn_egg": "Orman Örümceği Yumurtası",
+  "item.spider-overhaul.sculk_spider_spawn_egg": "Sculk Örümceği Yumurtası",
+  "item.spider-overhaul.mushroom_spider_spawn_egg": "Mantar Örümceği Yumurtası",
+  "item.spider-overhaul.cavern_spider_spawn_egg": "Mağara Örümceği Yumurtası",
+  "item.spider-overhaul.ocean_spider_spawn_egg": "Okyanus Örümceği Yumurtası",
+  "item.spider-overhaul.taiga_spider_spawn_egg": "Tayga Örümceği Yumurtası",
+  "item.spider-overhaul.birch_spider_spawn_egg": "Huş Ağacı Örümceği Yumurtası",
+  "item.spider-overhaul.savanna_spider_spawn_egg": "Savana Örümceği Yumurtası",
+  "item.spider-overhaul.swamp_spider_spawn_egg": "Bataklık Örümceği Yumurtası",
+  
+  "effect.spider-overhaul.icy": "Buzlu",
+  "effect.spider-overhaul.bog": "Bataklık",
+  "effect.spider-overhaul.webbed": "Perdeli",
+  
+  "item.minecraft.potion.effect.icy": "Buz İksiri",
+  "item.minecraft.splash_potion.effect.icy": "Fırlatılabilir Buz İksiri",
+  "item.minecraft.lingering_potion.effect.icy": "Kalıcı Buz İksiri",
+  "item.minecraft.tipped_arrow.effect.icy": "Buz Oku",
+  
+  "item.minecraft.potion.effect.long_icy": "Buz İksiri",
+  "item.minecraft.splash_potion.effect.long_icy": "Fırlatılabilir Buz İksiri",
+  "item.minecraft.lingering_potion.effect.long_icy": "Kalıcı Buz İksiri",
+  "item.minecraft.tipped_arrow.effect.long_icy": "Buz Oku",
+  
+  "item.minecraft.potion.effect.bog": "Bataklık İksiri",
+  "item.minecraft.splash_potion.effect.bog": "Bataklık Sıçratma İksiri",
+  "item.minecraft.lingering_potion.effect.bog": "Bataklığın Kalıcı İksiri",
+  "item.minecraft.tipped_arrow.effect.bog": "Bataklık Oku",
+  
+  "item.minecraft.potion.effect.long_bog": "Bataklık İksiri",
+  "item.minecraft.splash_potion.effect.long_bog": "Bataklık Sıçratma İksiri",
+  "item.minecraft.lingering_potion.effect.long_bog": "Bataklığın Kalıcı İksiri",
+  "item.minecraft.tipped_arrow.effect.long_bog": "Bataklık Oku",
+  
+  "advancements.spider-overhaul.root.title": "Örümcek Kapsamlı Yenilemesi",
+  "advancements.spider-overhaul.root.description": "Örümcekler duvarlardan dışarı çıkmış.",
+  "advancements.spider-overhaul.use_spider_pollen.title": "Büyüyüşümü izle",
+  "advancements.spider-overhaul.use_spider_pollen.description": "Dev bambu yetiştirmek için bambu üzerinde örümcek poleni kullanın.",
+  "advancements.spider-overhaul.break_webbed.title": "Mrmph-mhehph!!",
+  "advancements.spider-overhaul.break_webbed.description": "Ağ etkisinden, o etki geçmeden kurtulun.",
+  "advancements.spider-overhaul.kill_mod_spider.title": "Çok Örümcek, bayağı Overhaul",
+  "advancements.spider-overhaul.kill_mod_spider.description": "Yenilenmiş örümcek türlerinden birini öldürün.",
+  "advancements.spider-overhaul.kill_all_spiders.title": "Charlotte öldü",
+  "advancements.spider-overhaul.kill_all_spiders.description": "Yenilenmiş her örümcek türünü en az bir kez öldür.",
+  
+  "itemGroup.spider-overhaul.general": "Örümcek Kapsamlı Yenilemesi",
+
+  "config.spider-overhaul.title": "Örümcek Revizyon Yapılandırması",
+  "config.spider-overhaul.category.general": "Genel",
+  "config.spider-overhaul.category.spawning": "Yumurtlama",
+  "config.spider-overhaul.category.attributes": "Özellikler",
+
+  "config.spider-overhaul.replace_vanilla_spiders": "Orijinal Örümcekleri Değiştir",
+  "config.spider-overhaul.replace_vanilla_spiders.tooltip": "Alternatif örümcek türlerinin ortaya çıktığı biyomlardan, standart örümcek ve mağara örümceği oluşumlarını kaldırır.",
+
+  "config.spider-overhaul.use_vanilla_models": "Vanilla Modelleri Kullanın",
+  "config.spider-overhaul.use_vanilla_models.tooltip": "Örümcek modellerini orijinal (vanilla) tarza geçirir. Özel olarak elden geçirilmiş modelleri kullanmak için devre dışı bırakın.",
+
+  "config.spider-overhaul.hide_spider_legs": "Örümcek Bacaklarını Gizle",
+  "config.spider-overhaul.hide_spider_legs.tooltip": "Tüm örümcek modellerinin bacaklarını gizleyerek görüntülenmemelerini sağlar. Araknofobisi olan oyuncular için tasarlanmıştır.",
+
+  "config.spider-overhaul.spawn_weight_multiplier": "Belirme Ağırlığı Çarpanı",
+  "config.spider-overhaul.spawn_weight_multiplier.tooltip": "Tüm örümcek varyantlarının belirme ağırlığını çarpar. Daha yüksek değerler = daha sık belirmeler.",
+
+  "config.spider-overhaul.health_multiplier": "Sağlık Çarpanı",
+  "config.spider-overhaul.health_multiplier.tooltip": "Tüm örümcek varyantlarının temel canını katlar.",
+
+  "config.spider-overhaul.damage_multiplier": "Hasar Çarpanı",
+  "config.spider-overhaul.damage_multiplier.tooltip": "Tüm örümcek varyantlarının temel saldırı hasarını katlar.",
+
+  "config.spider-overhaul.speed_multiplier": "Hız Çarpanı",
+  "config.spider-overhaul.speed_multiplier.tooltip": "Tüm örümcek varyantlarının temel hareket hızını çarpar."
+}
