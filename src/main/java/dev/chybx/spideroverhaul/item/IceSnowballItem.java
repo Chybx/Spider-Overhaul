@@ -2,17 +2,21 @@ package dev.chybx.spideroverhaul.item;
 
 import dev.chybx.spideroverhaul.entity.ice_spider.IceSnowballEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.projectile.ProjectileEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ProjectileItem;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.stat.Stats;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
+import net.minecraft.util.math.Direction;
+import net.minecraft.util.math.Position;
 import net.minecraft.world.World;
 
-public class IceSnowballItem extends Item {
-    public IceSnowballItem(Settings settings) {
+public class IceSnowballItem extends Item implements ProjectileItem {
+    public IceSnowballItem(Item.Settings settings) {
         super(settings);
     }
 
@@ -43,5 +47,12 @@ public class IceSnowballItem extends Item {
         itemStack.decrementUnlessCreative(1, user);
 
         return TypedActionResult.success(itemStack, world.isClient());
+    }
+
+    @Override
+    public ProjectileEntity createEntity(World world, Position pos, ItemStack stack, Direction direction) {
+        IceSnowballEntity iceSnowballEntity = new IceSnowballEntity(world, pos.getX(), pos.getY(), pos.getZ());
+        iceSnowballEntity.setItem(stack);
+        return iceSnowballEntity;
     }
 }

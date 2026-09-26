@@ -1,6 +1,7 @@
 package dev.chybx.spideroverhaul;
 
 import dev.chybx.spideroverhaul.config.SpiderOverhaulConfig;
+import dev.chybx.spideroverhaul.dispenser.ModDispenserBehaviors;
 import dev.chybx.spideroverhaul.entity.jungle_spider.JungleSpiderParticles;
 import dev.chybx.spideroverhaul.registry.ModBlocks;
 import dev.chybx.spideroverhaul.registry.ModEffects;
@@ -55,6 +56,8 @@ public class Spideroverhaul implements ModInitializer {
 		ModBlocks.registerBlocks();
 
 		ModItems.registerItems();
+
+		ModDispenserBehaviors.register();
 
 		ModItemGroups.registerItemGroups();
 

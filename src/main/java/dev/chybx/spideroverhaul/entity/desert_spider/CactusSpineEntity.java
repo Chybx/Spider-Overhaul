@@ -21,7 +21,11 @@ public class CactusSpineEntity extends PersistentProjectileEntity {
     }
 
     public CactusSpineEntity(World world, double x, double y, double z) {
-        super(ModEntities.CACTUS_SPINE, x, y, z, world, new ItemStack(ModItems.CACTUS_SPINE), ItemStack.EMPTY);
+        this(world, x, y, z, new ItemStack(ModItems.CACTUS_SPINE));
+    }
+
+    public CactusSpineEntity(World world, double x, double y, double z, ItemStack pickupItem) {
+        super(ModEntities.CACTUS_SPINE, x, y, z, world, pickupItem, null);
     }
 
     @Override
