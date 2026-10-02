@@ -26,7 +26,7 @@ public class SpiderSpawnRestrictionMixin {
 
         if (cir.getReturnValue() && isModSpider(type)) {
             if (type == ModEntities.CAVERN_SPIDER) {
-                if (pos.getY() >= 63 || world.getBiome(pos).matchesKey(BiomeKeys.MUSHROOM_FIELDS)) {
+                if (pos.getY() >= 63 || world.getBiome(pos).matchesKey(BiomeKeys.MUSHROOM_FIELDS) || world.getBiome(pos).matchesKey(BiomeKeys.DEEP_DARK)) {
                     cir.setReturnValue(false);
                 }
             } else if (pos.getY() < 63) {
